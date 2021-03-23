@@ -3,38 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B3F779A2609382C009A9744 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F77992609382C009A9744 /* DBHelper.swift */; };
+		8BC551F52601261E0079ADDF /* Favoritos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC551F42601261E0079ADDF /* Favoritos.swift */; };
+		8BC551F9260134C00079ADDF /* UsuarioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC551F8260134C00079ADDF /* UsuarioTableViewCell.swift */; };
+		8BC551FC260134E50079ADDF /* UsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC551FB260134E50079ADDF /* UsuarioViewController.swift */; };
 		8BD600EF2601114900E0F8ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD600EE2601114900E0F8ED /* AppDelegate.swift */; };
 		8BD600F12601114900E0F8ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD600F02601114900E0F8ED /* SceneDelegate.swift */; };
 		8BD600F32601114900E0F8ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD600F22601114900E0F8ED /* ViewController.swift */; };
 		8BD600F62601114900E0F8ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD600F42601114900E0F8ED /* Main.storyboard */; };
 		8BD600F82601114B00E0F8ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD600F72601114B00E0F8ED /* Assets.xcassets */; };
 		8BD600FB2601114B00E0F8ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD600F92601114B00E0F8ED /* LaunchScreen.storyboard */; };
-		8BD601062601114B00E0F8ED /* SomosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD601052601114B00E0F8ED /* SomosTests.swift */; };
-		8BD601112601114B00E0F8ED /* SomosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD601102601114B00E0F8ED /* SomosUITests.swift */; };
+		8BEDBACC26027FD400F80722 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BEDBACB26027FD400F80722 /* GoogleService-Info.plist */; };
+		8BEDBAD22602994200F80722 /* FavoritoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDBAD12602994200F80722 /* FavoritoTableViewCell.swift */; };
+		8BEDBAD72602A09700F80722 /* FavoritosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDBAD62602A09700F80722 /* FavoritosViewController.swift */; };
+		E204F1ACC089BFB1007462CA /* Pods_Somos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1277E60A6CD768C080016D /* Pods_Somos.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8BD601022601114B00E0F8ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BD600E32601114900E0F8ED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8BD600EA2601114900E0F8ED;
-			remoteInfo = Somos;
-		};
-		8BD6010D2601114B00E0F8ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BD600E32601114900E0F8ED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8BD600EA2601114900E0F8ED;
-			remoteInfo = Somos;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		7A1277E60A6CD768C080016D /* Pods_Somos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Somos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3F77992609382C009A9744 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		8BC551F42601261E0079ADDF /* Favoritos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favoritos.swift; sourceTree = "<group>"; };
+		8BC551F8260134C00079ADDF /* UsuarioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioTableViewCell.swift; sourceTree = "<group>"; };
+		8BC551FB260134E50079ADDF /* UsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewController.swift; sourceTree = "<group>"; };
 		8BD600EB2601114900E0F8ED /* Somos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Somos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD600EE2601114900E0F8ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BD600F02601114900E0F8ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,12 +37,11 @@
 		8BD600F72601114B00E0F8ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BD600FA2601114B00E0F8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BD600FC2601114B00E0F8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BD601012601114B00E0F8ED /* SomosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BD601052601114B00E0F8ED /* SomosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomosTests.swift; sourceTree = "<group>"; };
-		8BD601072601114B00E0F8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BD6010C2601114B00E0F8ED /* SomosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BD601102601114B00E0F8ED /* SomosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomosUITests.swift; sourceTree = "<group>"; };
-		8BD601122601114B00E0F8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEDBACB26027FD400F80722 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8BEDBAD12602994200F80722 /* FavoritoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritoTableViewCell.swift; sourceTree = "<group>"; };
+		8BEDBAD62602A09700F80722 /* FavoritosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosViewController.swift; sourceTree = "<group>"; };
+		9922B665AE61EF0CAF2F5CAC /* Pods-Somos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somos.release.xcconfig"; path = "Target Support Files/Pods-Somos/Pods-Somos.release.xcconfig"; sourceTree = "<group>"; };
+		F2DF538F822837C473CAF06D /* Pods-Somos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somos.debug.xcconfig"; path = "Target Support Files/Pods-Somos/Pods-Somos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,33 +49,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BD600FE2601114B00E0F8ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BD601092601114B00E0F8ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E204F1ACC089BFB1007462CA /* Pods_Somos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CBCEB6AD04B9368AF1315F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A1277E60A6CD768C080016D /* Pods_Somos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BC551F0260125330079ADDF /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				8BD600F22601114900E0F8ED /* ViewController.swift */,
+				8BC551FB260134E50079ADDF /* UsuarioViewController.swift */,
+				8BEDBAD62602A09700F80722 /* FavoritosViewController.swift */,
+				8BC551F12601255D0079ADDF /* cellTable */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		8BC551F12601255D0079ADDF /* cellTable */ = {
+			isa = PBXGroup;
+			children = (
+				8BC551F8260134C00079ADDF /* UsuarioTableViewCell.swift */,
+				8BEDBAD12602994200F80722 /* FavoritoTableViewCell.swift */,
+			);
+			path = cellTable;
+			sourceTree = "<group>";
+		};
+		8BC551F2260125800079ADDF /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8BD600F42601114900E0F8ED /* Main.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		8BC551F3260125B60079ADDF /* db */ = {
+			isa = PBXGroup;
+			children = (
+				8BC551F42601261E0079ADDF /* Favoritos.swift */,
+				8B3F77992609382C009A9744 /* DBHelper.swift */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
 		8BD600E22601114900E0F8ED = {
 			isa = PBXGroup;
 			children = (
 				8BD600ED2601114900E0F8ED /* Somos */,
-				8BD601042601114B00E0F8ED /* SomosTests */,
-				8BD6010F2601114B00E0F8ED /* SomosUITests */,
 				8BD600EC2601114900E0F8ED /* Products */,
+				954C6B0C002518CEB17F1EA0 /* Pods */,
+				7CBCEB6AD04B9368AF1315F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				8BD600EB2601114900E0F8ED /* Somos.app */,
-				8BD601012601114B00E0F8ED /* SomosTests.xctest */,
-				8BD6010C2601114B00E0F8ED /* SomosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,33 +122,26 @@
 		8BD600ED2601114900E0F8ED /* Somos */ = {
 			isa = PBXGroup;
 			children = (
+				8BC551F3260125B60079ADDF /* db */,
+				8BC551F2260125800079ADDF /* storyboard */,
+				8BC551F0260125330079ADDF /* viewController */,
 				8BD600EE2601114900E0F8ED /* AppDelegate.swift */,
 				8BD600F02601114900E0F8ED /* SceneDelegate.swift */,
-				8BD600F22601114900E0F8ED /* ViewController.swift */,
-				8BD600F42601114900E0F8ED /* Main.storyboard */,
 				8BD600F72601114B00E0F8ED /* Assets.xcassets */,
 				8BD600F92601114B00E0F8ED /* LaunchScreen.storyboard */,
+				8BEDBACB26027FD400F80722 /* GoogleService-Info.plist */,
 				8BD600FC2601114B00E0F8ED /* Info.plist */,
 			);
 			path = Somos;
 			sourceTree = "<group>";
 		};
-		8BD601042601114B00E0F8ED /* SomosTests */ = {
+		954C6B0C002518CEB17F1EA0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8BD601052601114B00E0F8ED /* SomosTests.swift */,
-				8BD601072601114B00E0F8ED /* Info.plist */,
+				F2DF538F822837C473CAF06D /* Pods-Somos.debug.xcconfig */,
+				9922B665AE61EF0CAF2F5CAC /* Pods-Somos.release.xcconfig */,
 			);
-			path = SomosTests;
-			sourceTree = "<group>";
-		};
-		8BD6010F2601114B00E0F8ED /* SomosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8BD601102601114B00E0F8ED /* SomosUITests.swift */,
-				8BD601122601114B00E0F8ED /* Info.plist */,
-			);
-			path = SomosUITests;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BD601152601114B00E0F8ED /* Build configuration list for PBXNativeTarget "Somos" */;
 			buildPhases = (
+				9CD48F035E88F66DFBD5995E /* [CP] Check Pods Manifest.lock */,
 				8BD600E72601114900E0F8ED /* Sources */,
 				8BD600E82601114900E0F8ED /* Frameworks */,
 				8BD600E92601114900E0F8ED /* Resources */,
+				B6A56512B7395E4B52FA41FC /* [CP] Embed Pods Frameworks */,
+				C910570E212ECAF0FB4FCAD2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,42 +166,6 @@
 			productName = Somos;
 			productReference = 8BD600EB2601114900E0F8ED /* Somos.app */;
 			productType = "com.apple.product-type.application";
-		};
-		8BD601002601114B00E0F8ED /* SomosTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8BD601182601114B00E0F8ED /* Build configuration list for PBXNativeTarget "SomosTests" */;
-			buildPhases = (
-				8BD600FD2601114B00E0F8ED /* Sources */,
-				8BD600FE2601114B00E0F8ED /* Frameworks */,
-				8BD600FF2601114B00E0F8ED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8BD601032601114B00E0F8ED /* PBXTargetDependency */,
-			);
-			name = SomosTests;
-			productName = SomosTests;
-			productReference = 8BD601012601114B00E0F8ED /* SomosTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8BD6010B2601114B00E0F8ED /* SomosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8BD6011B2601114B00E0F8ED /* Build configuration list for PBXNativeTarget "SomosUITests" */;
-			buildPhases = (
-				8BD601082601114B00E0F8ED /* Sources */,
-				8BD601092601114B00E0F8ED /* Frameworks */,
-				8BD6010A2601114B00E0F8ED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8BD6010E2601114B00E0F8ED /* PBXTargetDependency */,
-			);
-			name = SomosUITests;
-			productName = SomosUITests;
-			productReference = 8BD6010C2601114B00E0F8ED /* SomosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,14 +178,6 @@
 				TargetAttributes = {
 					8BD600EA2601114900E0F8ED = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					8BD601002601114B00E0F8ED = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 8BD600EA2601114900E0F8ED;
-					};
-					8BD6010B2601114B00E0F8ED = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 8BD600EA2601114900E0F8ED;
 					};
 				};
 			};
@@ -220,8 +195,6 @@
 			projectRoot = "";
 			targets = (
 				8BD600EA2601114900E0F8ED /* Somos */,
-				8BD601002601114B00E0F8ED /* SomosTests */,
-				8BD6010B2601114B00E0F8ED /* SomosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,26 +205,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD600FB2601114B00E0F8ED /* LaunchScreen.storyboard in Resources */,
+				8BEDBACC26027FD400F80722 /* GoogleService-Info.plist in Resources */,
 				8BD600F82601114B00E0F8ED /* Assets.xcassets in Resources */,
 				8BD600F62601114900E0F8ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BD600FF2601114B00E0F8ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BD6010A2601114B00E0F8ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CD48F035E88F66DFBD5995E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Somos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A56512B7395E4B52FA41FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Somos/Pods-Somos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Somos/Pods-Somos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Somos/Pods-Somos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C910570E212ECAF0FB4FCAD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Somos/Pods-Somos-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Somos/Pods-Somos-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Somos/Pods-Somos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BD600E72601114900E0F8ED /* Sources */ = {
@@ -261,39 +280,16 @@
 				8BD600F32601114900E0F8ED /* ViewController.swift in Sources */,
 				8BD600EF2601114900E0F8ED /* AppDelegate.swift in Sources */,
 				8BD600F12601114900E0F8ED /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BD600FD2601114B00E0F8ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BD601062601114B00E0F8ED /* SomosTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BD601082601114B00E0F8ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BD601112601114B00E0F8ED /* SomosUITests.swift in Sources */,
+				8BEDBAD22602994200F80722 /* FavoritoTableViewCell.swift in Sources */,
+				8B3F779A2609382C009A9744 /* DBHelper.swift in Sources */,
+				8BEDBAD72602A09700F80722 /* FavoritosViewController.swift in Sources */,
+				8BC551F52601261E0079ADDF /* Favoritos.swift in Sources */,
+				8BC551F9260134C00079ADDF /* UsuarioTableViewCell.swift in Sources */,
+				8BC551FC260134E50079ADDF /* UsuarioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8BD601032601114B00E0F8ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8BD600EA2601114900E0F8ED /* Somos */;
-			targetProxy = 8BD601022601114B00E0F8ED /* PBXContainerItemProxy */;
-		};
-		8BD6010E2601114B00E0F8ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8BD600EA2601114900E0F8ED /* Somos */;
-			targetProxy = 8BD6010D2601114B00E0F8ED /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8BD600F42601114900E0F8ED /* Main.storyboard */ = {
@@ -433,6 +429,7 @@
 		};
 		8BD601162601114B00E0F8ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DF538F822837C473CAF06D /* Pods-Somos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +449,7 @@
 		};
 		8BD601172601114B00E0F8ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9922B665AE61EF0CAF2F5CAC /* Pods-Somos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,90 +464,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		8BD601192601114B00E0F8ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22TB4B238M;
-				INFOPLIST_FILE = SomosTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.somos.SomosTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Somos.app/Somos";
-			};
-			name = Debug;
-		};
-		8BD6011A2601114B00E0F8ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22TB4B238M;
-				INFOPLIST_FILE = SomosTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.somos.SomosTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Somos.app/Somos";
-			};
-			name = Release;
-		};
-		8BD6011C2601114B00E0F8ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22TB4B238M;
-				INFOPLIST_FILE = SomosUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.somos.SomosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Somos;
-			};
-			name = Debug;
-		};
-		8BD6011D2601114B00E0F8ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22TB4B238M;
-				INFOPLIST_FILE = SomosUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.somos.SomosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Somos;
 			};
 			name = Release;
 		};
@@ -570,24 +484,6 @@
 			buildConfigurations = (
 				8BD601162601114B00E0F8ED /* Debug */,
 				8BD601172601114B00E0F8ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8BD601182601114B00E0F8ED /* Build configuration list for PBXNativeTarget "SomosTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8BD601192601114B00E0F8ED /* Debug */,
-				8BD6011A2601114B00E0F8ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8BD6011B2601114B00E0F8ED /* Build configuration list for PBXNativeTarget "SomosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8BD6011C2601114B00E0F8ED /* Debug */,
-				8BD6011D2601114B00E0F8ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
